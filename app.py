@@ -21,3 +21,4 @@ if __name__ == "__main__":
     print(f"Contract: {CONTRACT_ADDRESS}")
     print(f"Code hash: {contract_hash}")
     print("✅ Soundness verified (no code mismatch detected)")
+note = sys.argv[1] if len(sys.argv) > 1 else "user:alice,value:42,nonce:17"
