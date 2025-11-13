@@ -21,3 +21,4 @@ if __name__ == "__main__":
     print(f"Contract: {CONTRACT_ADDRESS}")
     print(f"Code hash: {contract_hash}")
     print("✅ Soundness verified (no code mismatch detected)")
+RPC_URL = RPC_URL or "https://cloudflare-eth.com"
